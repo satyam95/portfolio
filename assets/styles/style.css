@@ -74,8 +74,8 @@ ul.nav-list {
 }
 .body-text {
   font-family: "Urbanist", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
 }
 .exp-block {
   display: flex;
@@ -134,11 +134,12 @@ footer {
   margin-bottom: 0px;
 }
 .btn-inner {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   border: 1px solid #000;
   padding: 6px 18px;
   border-radius: 32px;
+  gap: 6px;
 }
 .btn-text {
   font-family: "Urbanist", sans-serif;
@@ -151,10 +152,13 @@ a {
   color: inherit;
 }
 .btn-icon img {
-  width: 85%;
+  width: 24px;
 }
 .btn-icon {
   padding-right: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn-container {
   display: flex;
@@ -174,6 +178,7 @@ ul.skill-list {
   list-style: none;
   text-align: center;
   margin-top: 16px;
+  padding-left: 0;
 }
 li.body-text {
   margin-bottom: 8px;
@@ -219,7 +224,7 @@ p.date-comp {
 }
 .comp-position {
   font-family: "Urbanist", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 26px;
 }
 .comp-text {
@@ -286,14 +291,14 @@ h4.body-head-2 {
   font-family: "Urbanist", sans-serif;
   font-size: 20px;
   line-height: 24px;
-  padding-bottom: 8px;
-  padding-top: 8px;
+  padding-bottom: 6px;
+  padding-top: 16px;
 }
 
 .tech {
   font-family: "Urbanist", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .tech {
@@ -336,6 +341,11 @@ h4.body-head-2 {
   -ms-transition: all 11s;
   -o-transition: all 11s;
   transition: all 11s;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
 }
 
 /**/
@@ -446,10 +456,10 @@ h4.body-head-2 {
     flex-direction: column;
     gap: 16px;
   }
-  .screen{
+  .screen {
     height: 300px;
   }
-  .screen img{
+  .screen img {
     bottom: -240px;
   }
 }
