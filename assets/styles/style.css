@@ -61,10 +61,14 @@ ul.nav-list {
   margin: auto;
 }
 .subheading {
-  font-size: 60px;
+  font-size: 34px;
+  line-height: 40px;
   font-family: "Urbanist", sans-serif;
   font-weight: 400;
   text-align: center;
+}
+.subheading{
+  padding-top: 40px;
 }
 .sub-heading {
   font-family: "Oooh Baby", cursive;
@@ -75,7 +79,7 @@ ul.nav-list {
 .body-text {
   font-family: "Urbanist", sans-serif;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 27px;
 }
 .exp-block {
   display: flex;
@@ -162,7 +166,7 @@ a {
 }
 .btn-container {
   display: flex;
-  padding-top: 16px;
+  padding-top: 28px;
   gap: 20px;
 }
 .skill-col {
@@ -187,7 +191,7 @@ li.body-text:last-child {
   margin-bottom: 0px;
 }
 .skill-inner-col {
-  padding: 0 18px;
+  padding: 0 8px;
   text-align: center;
 }
 .oth-work {
@@ -210,7 +214,7 @@ li.body-text:last-child {
 .body-head-comp {
   font-family: "Urbanist", sans-serif;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 40px;
   padding-bottom: 4px;
 }
 p.date-comp {
@@ -225,7 +229,7 @@ p.date-comp {
 .comp-position {
   font-family: "Urbanist", sans-serif;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 40px;
 }
 .comp-text {
   padding-top: 16px;
@@ -280,7 +284,7 @@ ul.pos-desc li:last-child {
 }
 
 .project-desc-para p {
-  margin-bottom: 6px;
+  margin-bottom: 16px;
 }
 
 .project-desc-para p:last-child {
@@ -348,6 +352,10 @@ h4.body-head-2 {
   height: 50px;
 }
 
+h3.body-head-comp.special-head {
+  line-height: 28px;
+}
+
 /**/
 @media (max-width: 1024px) {
   .container {
@@ -366,9 +374,6 @@ h4.body-head-2 {
   }
   .handwriting {
     width: 90%;
-  }
-  .subheading {
-    font-size: 48px;
   }
   .sub-heading {
     font-size: 60px;
@@ -406,7 +411,7 @@ h4.body-head-2 {
     flex-wrap: wrap;
   }
   .project-media {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
   }
   .skill-col {
     justify-content: flex-start;
@@ -426,9 +431,6 @@ h4.body-head-2 {
     font-size: 50px;
     line-height: 56px;
     margin-bottom: 24px;
-  }
-  .subheading {
-    font-size: 36px;
   }
   .btn-text {
     font-size: 16px;
@@ -462,6 +464,12 @@ h4.body-head-2 {
   .screen img {
     bottom: -240px;
   }
+  .subheading{
+    padding-top: 16px;
+  }
+  .comp-descp {
+    padding-left: 12px;
+}
 }
 
 @media (max-width: 375px) {
